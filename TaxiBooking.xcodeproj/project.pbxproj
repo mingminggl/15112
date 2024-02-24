@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF1E65122B887FE000BE26F9 /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1E65112B887FE000BE26F9 /* MapViewActionButton.swift */; };
+		AF1E65142B88823F00BE26F9 /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1E65132B88823F00BE26F9 /* LocationSearchView.swift */; };
+		AF1E65162B8884C400BE26F9 /* LocationSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1E65152B8884C400BE26F9 /* LocationSearchResultCell.swift */; };
+		AF1E65182B888F3200BE26F9 /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1E65172B888F3200BE26F9 /* LocationSearchViewModel.swift */; };
 		AF7C3EDC2B88616500DD6496 /* TaxiBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C3EDB2B88616500DD6496 /* TaxiBookingApp.swift */; };
-		AF7C3EDE2B88616500DD6496 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C3EDD2B88616500DD6496 /* ContentView.swift */; };
 		AF7C3EE02B88616700DD6496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7C3EDF2B88616700DD6496 /* Assets.xcassets */; };
 		AF7C3EE32B88616700DD6496 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7C3EE22B88616700DD6496 /* Preview Assets.xcassets */; };
 		AF7C3EED2B88616700DD6496 /* TaxiBookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C3EEC2B88616700DD6496 /* TaxiBookingTests.swift */; };
 		AF7C3EF72B88616700DD6496 /* TaxiBookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C3EF62B88616700DD6496 /* TaxiBookingUITests.swift */; };
 		AF7C3EF92B88616700DD6496 /* TaxiBookingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C3EF82B88616700DD6496 /* TaxiBookingUITestsLaunchTests.swift */; };
+		AF7C3F112B88633900DD6496 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C3F102B88633900DD6496 /* HomeView.swift */; };
+		AF7C3F132B88639800DD6496 /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C3F122B88639800DD6496 /* MapViewRepresentable.swift */; };
+		AF7C3F152B8865B100DD6496 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C3F142B8865B100DD6496 /* LocationManager.swift */; };
+		AF7C3F1E2B8871F900DD6496 /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C3F1D2B8871F900DD6496 /* LocationSearchActivationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF1E65112B887FE000BE26F9 /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
+		AF1E65132B88823F00BE26F9 /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
+		AF1E65152B8884C400BE26F9 /* LocationSearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultCell.swift; sourceTree = "<group>"; };
+		AF1E65172B888F3200BE26F9 /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
 		AF7C3ED82B88616500DD6496 /* TaxiBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7C3EDB2B88616500DD6496 /* TaxiBookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiBookingApp.swift; sourceTree = "<group>"; };
-		AF7C3EDD2B88616500DD6496 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF7C3EDF2B88616700DD6496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF7C3EE22B88616700DD6496 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF7C3EE82B88616700DD6496 /* TaxiBookingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiBookingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +54,10 @@
 		AF7C3EF22B88616700DD6496 /* TaxiBookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiBookingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7C3EF62B88616700DD6496 /* TaxiBookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiBookingUITests.swift; sourceTree = "<group>"; };
 		AF7C3EF82B88616700DD6496 /* TaxiBookingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiBookingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF7C3F102B88633900DD6496 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF7C3F122B88639800DD6496 /* MapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRepresentable.swift; sourceTree = "<group>"; };
+		AF7C3F142B8865B100DD6496 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		AF7C3F1D2B8871F900DD6496 /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +108,12 @@
 		AF7C3EDA2B88616500DD6496 /* TaxiBooking */ = {
 			isa = PBXGroup;
 			children = (
-				AF7C3EDB2B88616500DD6496 /* TaxiBookingApp.swift */,
-				AF7C3EDD2B88616500DD6496 /* ContentView.swift */,
+				AF7C3F092B88625600DD6496 /* App */,
 				AF7C3EDF2B88616700DD6496 /* Assets.xcassets */,
+				AF7C3F0B2B88627300DD6496 /* Core */,
+				AF7C3F0C2B88627800DD6496 /* Extensions */,
+				AF7C3F0D2B88629A00DD6496 /* Managers */,
+				AF7C3F0A2B88625E00DD6496 /* Models */,
 				AF7C3EE12B88616700DD6496 /* Preview Content */,
 			);
 			path = TaxiBooking;
@@ -125,6 +142,98 @@
 				AF7C3EF82B88616700DD6496 /* TaxiBookingUITestsLaunchTests.swift */,
 			);
 			path = TaxiBookingUITests;
+			sourceTree = "<group>";
+		};
+		AF7C3F092B88625600DD6496 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AF7C3EDB2B88616500DD6496 /* TaxiBookingApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AF7C3F0A2B88625E00DD6496 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF7C3F0B2B88627300DD6496 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AF7C3F172B88717600DD6496 /* LocationSearch */,
+				AF7C3F162B88715E00DD6496 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AF7C3F0C2B88627800DD6496 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AF7C3F0D2B88629A00DD6496 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AF7C3F142B8865B100DD6496 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AF7C3F0E2B88630D00DD6496 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF7C3F102B88633900DD6496 /* HomeView.swift */,
+				AF7C3F122B88639800DD6496 /* MapViewRepresentable.swift */,
+				AF1E65112B887FE000BE26F9 /* MapViewActionButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF7C3F0F2B88631300DD6496 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AF7C3F162B88715E00DD6496 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AF7C3F0F2B88631300DD6496 /* ViewModel */,
+				AF7C3F0E2B88630D00DD6496 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AF7C3F172B88717600DD6496 /* LocationSearch */ = {
+			isa = PBXGroup;
+			children = (
+				AF7C3F1C2B8871C500DD6496 /* ViewModel */,
+				AF7C3F1B2B8871BF00DD6496 /* Views */,
+			);
+			path = LocationSearch;
+			sourceTree = "<group>";
+		};
+		AF7C3F1B2B8871BF00DD6496 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF7C3F1D2B8871F900DD6496 /* LocationSearchActivationView.swift */,
+				AF1E65132B88823F00BE26F9 /* LocationSearchView.swift */,
+				AF1E65152B8884C400BE26F9 /* LocationSearchResultCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF7C3F1C2B8871C500DD6496 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF1E65172B888F3200BE26F9 /* LocationSearchViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +366,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF7C3EDE2B88616500DD6496 /* ContentView.swift in Sources */,
+				AF1E65182B888F3200BE26F9 /* LocationSearchViewModel.swift in Sources */,
+				AF1E65142B88823F00BE26F9 /* LocationSearchView.swift in Sources */,
+				AF7C3F152B8865B100DD6496 /* LocationManager.swift in Sources */,
+				AF1E65122B887FE000BE26F9 /* MapViewActionButton.swift in Sources */,
 				AF7C3EDC2B88616500DD6496 /* TaxiBookingApp.swift in Sources */,
+				AF7C3F132B88639800DD6496 /* MapViewRepresentable.swift in Sources */,
+				AF7C3F112B88633900DD6496 /* HomeView.swift in Sources */,
+				AF7C3F1E2B8871F900DD6496 /* LocationSearchActivationView.swift in Sources */,
+				AF1E65162B8884C400BE26F9 /* LocationSearchResultCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +540,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TaxiBooking/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow access to your location to see nearby drivers";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +569,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TaxiBooking/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow access to your location to see nearby drivers";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
